@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Kicad\Powersupply_12V\Powersupply_24vdc_12V\Powersupply_24vdc_12V.kicad_sch</source>
+    <date>6/11/2024 1:01:25 PM</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power supply design of 24vdc to 12vdc</title>
+        <company>Rohithvishal Pentakota</company>
+        <rev/>
+        <date>2024-05-21</date>
+        <source>Powersupply_24vdc_12V.kicad_sch</source>
+        <comment number="1" value="Onboard battery supply of fuel cell car"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e04d8890-c34e-48c9-9210-ec31d4ad18fe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73215120-11c4-412f-b17f-a9b2c7a77958</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>220uF</value>
+      <footprint>220uf_capacitor:220uF</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce7825d3-6dfa-40ce-923d-693b55c3c3e0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220uF</value>
+      <footprint>220uf_capacitor:220uF</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d60be4d4-29c0-47a6-92ae-3b1a341aaa1d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82aa0012-f5ed-4ae4-85f8-2dca149f77dd</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8117b0c-2f28-454e-b39a-a0012ea3c592</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZX384-C12</value>
+      <footprint>Zenerdiode_D1:BZX384_C12</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d8769dd-dc2f-4c60-a68c-bddfca7b3da0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZX84C6V8LY</value>
+      <footprint>Zenerdiode_D2:BZX84C6V8</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44c09c79-ff12-4797-ba4c-108c4bd05c61</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ec7f74d-d6fc-4e51-b1e1-20ab848b8d10</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>NDT3055L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="NDT3055L" description="4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223"/>
+      <property name="ki_keywords" value="n channel fet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a28b4313-df82-4c7e-89a3-f83b8ddbec66</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfccffe6-191b-4841-8607-a5f248a793e0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>669627a3-83d3-478f-bca9-9de956d19c01</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aef1eaa-b578-4f55-a604-68853e7651f7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0603d1af-b823-47c1-ae5c-ada87cd3099c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b743b7a0-243b-473b-8893-835115c6327f</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>64Y-100k</value>
+      <footprint>64Y-100k:Trim_potentiometer</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95228c10-4bf3-45a5-9f89-1597237bef4c</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>64Y-20k</value>
+      <footprint>64Y-20k:64Y-20k_potentiometer</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d72006ad-73e7-4b28-a287-8c9b8df334b9</tstamps>
+    </comp>
+    <comp ref="THN10-2412WE1">
+      <value>~</value>
+      <footprint>THN-2412WE:Traco_THN-2412WE</footprint>
+      <libsource lib="Traco_THN-10-2412WE" part="THN10-2412WE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db58f7d0-ef15-447d-a880-491b23ba0035</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>soldernail-RTML:Soldernail</footprint>
+      <libsource lib="soldernail-RTML" part="soldernail" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f7a8e3-88e4-4c75-882a-f500753bf64b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>soldernail-RTML:Soldernail</footprint>
+      <libsource lib="soldernail-RTML" part="soldernail" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1c9085b-f31c-48d3-b84e-9c5d8966dc3b</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>AKL073_1</value>
+      <footprint>AKL073_2:2pin_screwterminal</footprint>
+      <libsource lib="" part="input_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b67cdbaf-648a-4b17-8c4d-3b35337a6a02</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>AKL073_2</value>
+      <footprint>AKL073_2:2pin_screwterminal</footprint>
+      <libsource lib="" part="input_3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5ed4512-63f8-40bb-9f2d-4d146e3199d9</tstamps>
+    </comp>
+    <comp ref="X3">
+      <value>AKL073_2</value>
+      <footprint>AKL073_2:2pin_screwterminal</footprint>
+      <libsource lib="" part="input_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powersupply_24vdc_12V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c54c6e60-faba-4d9d-891c-c475d9d51e4a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="input_1">
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin+" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="input_2">
+      <fields>
+        <field name="Reference">X3</field>
+        <field name="Value">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="input_3">
+      <fields>
+        <field name="Reference">X2</field>
+        <field name="Value">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MC+" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Traco_THN-10-2412WE" part="THN10-2412WE">
+      <fields>
+        <field name="Reference">THN10-2412WE1</field>
+        <field name="Value">~</field>
+        <field name="Footprint">THN-2412WE:Traco_THN-2412WE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin+(Vcc)" type="input"/>
+        <pin num="2" name="Vin-(GND)" type="input"/>
+        <pin num="3" name="Remote_on/off" type="input"/>
+        <pin num="4" name="Vout+" type="power_out"/>
+        <pin num="5" name="Trim" type="power_out"/>
+        <pin num="6" name="Vout-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="NDT3055L">
+      <description>4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NDT3055L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="soldernail-RTML" part="soldernail">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">~</field>
+        <field name="Footprint">soldernail-RTML:Soldernail</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Traco_THN-10-2412WE">
+      <uri>C:\Kicad\Powersupply_12V\Powersupply_24vdc_12V/Symbols/Traco_THN-10-2412WE.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="soldernail-RTML">
+      <uri>C:/Users/VICTUS/OneDrive/Desktop/pcb design-optical amplifier/symbols/soldernail-RTML.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/12v dc out">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="4" pinfunction="Vout+" pintype="power_out"/>
+      <node ref="X3" pin="1" pinfunction="Vout" pintype="input"/>
+    </net>
+    <net code="2" name="/24v dc in">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="1" pinfunction="Vin+(Vcc)" pintype="input"/>
+      <node ref="X1" pin="1" pinfunction="Vin+" pintype="input"/>
+    </net>
+    <net code="3" name="/GND2">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="6" pinfunction="Vout-" pintype="power_out"/>
+      <node ref="U1" pin="1" pintype="input"/>
+      <node ref="X3" pin="2" pinfunction="Gnd" pintype="input"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="2" pinfunction="Vin-(GND)" pintype="input"/>
+      <node ref="U2" pin="1" pintype="input"/>
+      <node ref="X1" pin="2" pinfunction="Gnd" pintype="input"/>
+      <node ref="X2" pin="2" pinfunction="Gnd" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="3" pinfunction="Remote_on/off" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(Q1-B)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q1-C)">
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(THN10-2412WE1-Trim)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="THN10-2412WE1" pin="5" pinfunction="Trim" pintype="power_out"/>
+    </net>
+    <net code="10" name="Net-(X2-MC+)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="MC+" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(RV1-Pad3)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(RV2-Pad1)">
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

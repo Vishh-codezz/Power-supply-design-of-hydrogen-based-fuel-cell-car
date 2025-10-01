@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Traco_THN-10-2412WE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Traco_THN-10-2412WE.kicad_sym")(options "")(descr ""))
+  (lib (name "AKL073_2")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AKL073_2.kicad_sym")(options "")(descr ""))
+)

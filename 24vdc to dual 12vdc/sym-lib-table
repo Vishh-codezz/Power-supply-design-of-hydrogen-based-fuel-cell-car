@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Thn10-2422WIR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Thn10-2422WIR.kicad_sym")(options "")(descr ""))
+  (lib (name "AKL073_2")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AKL073_2.kicad_sym")(options "")(descr ""))
+  (lib (name "AKL073_3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AKL073_3.kicad_sym")(options "")(descr ""))
+)

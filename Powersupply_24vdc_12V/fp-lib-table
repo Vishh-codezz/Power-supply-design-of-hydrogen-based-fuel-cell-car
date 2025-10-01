@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "THN-2412WE")(type "KiCad")(uri "${KIPRJMOD}/Footprints/THN-2412WE.pretty")(options "")(descr ""))
+  (lib (name "64Y-100k")(type "KiCad")(uri "${KIPRJMOD}/Footprints/64Y-100k.pretty")(options "")(descr ""))
+  (lib (name "64Y-20k")(type "KiCad")(uri "${KIPRJMOD}/Footprints/64Y-20k.pretty")(options "")(descr ""))
+  (lib (name "390uF")(type "KiCad")(uri "${KIPRJMOD}/Footprints/390uF.pretty")(options "")(descr ""))
+  (lib (name "AKL073_2")(type "KiCad")(uri "${KIPRJMOD}/Footprints/AKL073_2.pretty")(options "")(descr ""))
+  (lib (name "Zenerdiode_D1")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Zenerdiode_D1.pretty")(options "")(descr ""))
+  (lib (name "Zenerdiode_D2")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Zenerdiode_D2.pretty")(options "")(descr ""))
+  (lib (name "220uf_capacitor")(type "KiCad")(uri "${KIPRJMOD}/Footprints/220uf_capacitor.pretty")(options "")(descr ""))
+)
